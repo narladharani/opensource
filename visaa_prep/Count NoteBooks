@@ -1,0 +1,3 @@
+n=int(input())
+notebooks=10*n
+print(notebooks)
