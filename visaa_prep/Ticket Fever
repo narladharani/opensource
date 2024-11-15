@@ -1,0 +1,10 @@
+T=int(input())
+results=[]
+for _ in range(T):
+    N,M=map(int,input().split())
+    if N>M:
+        results.append(N-M)
+    else:
+        results.append(0)
+for result in results:
+    print(result)
